@@ -4,7 +4,7 @@ const Discord = require(`discord.js`);
 
 module.exports = {
   name: `embed`,
-  description: `[ 💻 - Moderação ] Criar embed com um modal`,
+  description: `[ 💻 - Moderação ] Criar embedd com um modal`,
   type: Discord.ApplicationCommandType.ChatInput,
   options: [
     {
