@@ -42,7 +42,7 @@ client.login(config.token)
 
   client.on("ready", () => {
     let canalPing = client.channels.cache.get("1058091073395757156"); // Aqui o bot irá pegar o canal pelo id (Coloque o id do canal que aparecerá o ping do bot)
-    if (!canalPing) return console.log(`Canal de ping do bot não encontrado`); // Aqui o bot ira mandar no console se o canal não existir
+    if (!canalPing) return console.log(`Canal de ping do bot não encontrado!`); // Aqui o bot ira mandar no console se o canal não existir
 
     canalPing.setName(`📡 Ping: Calculando...`);
     setInterval(() => {
